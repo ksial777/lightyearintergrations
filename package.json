@@ -1,0 +1,17 @@
+{
+  "name": "lightyear-template",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "lightyear dev",
+    "build": "lightyear build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "lightyear deploy prod"
+  },
+  "main": "build/index.js",
+  "dependencies": {
+    "@runlightyear/cli": "latest",
+    "@runlightyear/github": "latest",
+    "@runlightyear/lightyear": "latest",
+    "@runlightyear/slack": "latest"
+  }
+}
