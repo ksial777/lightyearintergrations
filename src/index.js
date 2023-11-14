@@ -1,4 +1,4 @@
 import "./helloWorld";
-// import "./helloSlack";
-// import "./basicWebhook";
-// import "./githubToSlack";
+import "./helloSlack";
+import "./basicWebhook";
+import "./githubToSlack";
