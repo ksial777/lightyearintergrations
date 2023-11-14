@@ -4,8 +4,8 @@ import { getEnvName } from "@runlightyear/lightyear";
 
 const envName = getEnvName();
 
-const GITHUB_OWNER = "owner"; // The account owner of the repository. The name is not case sensitive.
-const GITHUB_REPO = "repo"; // The name of the repository without the .git extension. The name is not case sensitive.
+const GITHUB_OWNER = "ksial777"; // The account owner of the repository. The name is not case sensitive.
+const GITHUB_REPO = "lightyearintergrations"; // The name of the repository without the .git extension. The name is not case sensitive.
 const SLACK_CHANNEL = "#general"; // The Slack channel to post messages in.
 
 GitHub.onPush({
@@ -22,6 +22,6 @@ GitHub.onPush({
       text: `[${envName}] Got push event on repo: ${data.repository.fullName}`,
     });
 
-    console.info("Posted message to Slack");
+    console.info("Posted message to Slackkkkk");
   },
 });
